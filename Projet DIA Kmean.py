@@ -8,6 +8,9 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# En effectuant un k-means la dessus, on pourra classer les pays selon leur niveau de développement réseau,
+# que ce soit au niveau des infrastructures ou de l'utilisation par la population.
+
 #%%
 df=pd.read_csv("cleaned_data.csv")
 #%%
